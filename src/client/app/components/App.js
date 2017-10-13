@@ -8,10 +8,10 @@ const App = () => (
 	<div>
 	 <Banner/>
 		<Row>
-			<Col xs = {2}>
+			<Col xsOffset = {2} xs = {1}>
 				<Header/>
 			</Col>
-			<Col xs = {10}>
+			<Col xs = {7}>
 				<Main/>
 			</Col>
 		</Row>
