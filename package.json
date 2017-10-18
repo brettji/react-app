@@ -21,13 +21,19 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
     "concurrently": "^3.5.0",
+    "css-loader": "^0.28.7",
     "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "pure-react-carousel": "^1.9.8",
     "react": "^16.0.0",
     "react-bootstrap": "^0.31.3",
     "react-dom": "^16.0.0",
+    "react-responsive-carousel": "^3.1.27",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-router-native": "^4.2.0",
-    "webpack": "^3.7.1"
+    "style-loader": "^0.19.0",
+    "webpack": "^3.7.1",
+    "webpack-css-loaders": "^1.0.0"
   }
 }

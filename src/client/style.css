@@ -1,55 +1,107 @@
-body {
-  background-color: #ffffff;
-  padding: 20px;
+html {
+	height:100%;
+}
+.border-img{
+width:200px;	
+padding-left:20px;
+padding-top:20px;
+}
+
+.the-body {
+  background-color:#485d72;
   margin: 0;
+  height:100%;
+}
+.position{
+		color:white;
+}
+.skills-list{
+
+}
+.position h3 {
+	margin-top:0px;
+}
+.project{
+	 border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+	
+}
+.project ul li{
+	 text-decoration: none;
+	 list-style: none;
+}
+
+.project ul{
+	 padding-left:0;
+}
+header-nav {
+	float:right;
+	padding-top: 85px;
+}
+.footer-main{
+	height:50px;
+	
+}
+.responsibilities-list li{
+	  text-decoration: none;
+}
+div.footer-nav {
+	margin-top:20px;
+}
+div.footer-nav ul li {
+	padding:0px;
+padding-right:12px;
 }
 h1, h2, p, ul, li {
   font-family: Helvetica, Arial, sans-serif;
 }
+.view-heading , .home-text{
+ color:white;
+}
+.view-heading{
+	    border-bottom: 2px solid white;
+}
 .bali-img{
-width:200px;
-box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-border-radius:5px;
+width:150px;
+border-radius:50%;
+margin-left:9px;
+float:right;
+border:1px solid white; 
 }
 .home-text{
 	padding:7px;
 }
-ul.header li {
+ul.header li , ul.footer li{
     list-style-type: none;
-    margin: 0;
     border-radius: 3px;
+	    padding: 12px;
 	text-align: center;
+	display: inline-block;
 }
 
-
-ul.header {
-	
+.header div:first-child li { 
+   float:right;
+}
+ul.header, ul.footer {
 	padding: 0;
     padding 10px 0px;
 	border-radius: 3px;
 	
 	
 }
-ul.header li a {
-  color: #4b5267;
+ul.header li a , ul.footer li a{
+ border-bottom: 2px solid white;
+  color: white;
   font-weight: bold;
   text-decoration: none;
-    width:100%;
-
-       padding: 20px 0;
   display: inline-block;
 }
 .navLink{
 padding:20px;
       }
  
-.content {
 
-	padding: 20px;
-	padding-left: 30px;
-    width:75%;
-
-}
 .view{
 	background-color: #dddbdd;
     padding: 2px;
@@ -65,9 +117,7 @@ padding:20px;
   padding: 0;
   margin: 0;
 }
-.content li {
-  margin-bottom: 10px;
-}
+
 .active, ul.header li a.active:hover{
   color:#f9b1e7;
 }

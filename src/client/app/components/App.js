@@ -2,19 +2,20 @@ import React from 'react'
 import Header from './Header'
 import Main from './Main'
 import Banner from './Banner'
+import Footer from './Footer'
 import {Row,Col} from 'react-bootstrap'
 
 const App = () => (
 	<div>
-	 <Banner/>
-		<Row>
-			<Col xsOffset = {2} xs = {1}>
+		<div className = "content">
+			<Row>
 				<Header/>
-			</Col>
-			<Col xs = {7}>
+			</Row>
+			<Row>
 				<Main/>
-			</Col>
-		</Row>
+			</Row>
+		</div>
+			<Footer/>
 	</div>
 ) 
 export default App
